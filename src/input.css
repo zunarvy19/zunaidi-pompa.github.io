@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul li a{
+  @apply rounded py-[7px] px-[13px] text-[17px] text-white
+  hover:bg-blue-200 hover:text-blue-900  transition-all duration-300
+  
+}
+
+#check:checked ~ ul{
+  left: 0;
+}
+
+
